@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Logo Frist*/
+
 .logo a {
     position: relative top;
  
@@ -13,7 +15,7 @@
 
 nav{
     height: 90px;
-    width: 1440px;
+    max-width: 1440px;
     justify-content: space-between;
     padding:0 30px;
     display: flex;
@@ -49,7 +51,7 @@ nav{
     color: #000;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 18%;
+    font-weight: 400/700;
     
 
 
@@ -116,6 +118,7 @@ nav{
     box-sizing: border-box;
     padding: 20px;
 }
+/* Logo End */
 
 .li2{
     flex: 1;
@@ -137,3 +140,31 @@ nav{
     padding: 20px;
 }
 
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+
+   
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+footer h1{
+    font-family: 'Courier New', Courier, monospace;
+        margin: 30px;
+    }
+
+#text-product{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    display: flex;
+    padding: 10px;
+    margin: 30px;
+    justify-content: space-around;
+}

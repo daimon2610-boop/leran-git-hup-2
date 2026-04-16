@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Shop.css">
+</head>
+<body>
+    <!-- Logo First -->
+     <nav>
+       <div class="logo">
+         <a href="#"><img src="img/logo ฟาร์ม ตัวจริง.png" alt="" width="80px" height="80px" ></a>
+       </div>
+        <ul class="Menu">
+          <li><a href="#" onclick="window.location.href='my wed.html'">Home</a></li>
+            <li><a href="#" onclick="window.location.href='About.html'">About</a></li>
+            <li><a href="#" onclick="window.location.href='Shop.html'">Shop </a></li>
+            <li><a href="#" onclick="window.location.href='Contact.html'">Contact</a></li>
+     </ul>
+    
+
+     </nav>
+     <!-- Logo End -->
+    
+     <!-- Slideshow -->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 4</div>
+          <img src="img/ตัวอย่างสินค้า.jpg" style="width:100%">
+          <div class="text">Caption One</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 4</div>
+          <img src="img/จิ้งหรีดทอด.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 4</div>
+          <img src="img/จิ้งหรีดทอด2.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 4</div>
+          <img src="img/ตัวอย่างสินค้า.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+        <!-- Shop -->
+         <h1>My Shop</h1>
+        <section id="shop">
+          <div class="product-grid">
+            <article class="product-card">
+              <img src="img/ตัวอย่างสินค้า.jpg" alt="วอปเปอร์">
+              <div class="product-card-body">
+                <div class="product-title">วอปเปอร์®</div>
+                <div class="product-price">199 บาท</div>
+                <div class="product-tags">
+                  <span class="product-icon">🐄</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-outline">ปรับแต่งรายการ</button>
+                  <button class="btn-primary">+ เพิ่ม</button>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="img/ตัวอย่างสินค้า.jpg" alt="วอปเปอร์ ชีส">
+              <div class="product-card-body">
+                <div class="product-title">วอปเปอร์® ชีส</div>
+                <div class="product-price">229 บาท</div>
+                <div class="product-tags">
+                  <span class="product-icon">🐄</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-outline">ปรับแต่งรายการ</button>
+                  <button class="btn-primary">+ เพิ่ม</button>
+                </div>
+              </div>
+            </article>
+            <article class="product-card">
+              <img src="img/ตัวอย่างสินค้า.jpg" alt="วอปเปอร์ จูเนียร์">
+              <div class="product-card-body">
+                <div class="product-title">วอปเปอร์® จูเนียร์</div>
+                <div class="product-price">149 บาท</div>
+                <div class="product-tags">
+                  <span class="product-icon">🐄</span>
+                  <span class="product-icon">🐄</span>
+                </div>
+                <div class="card-actions">
+                  <button class="btn-outline">ปรับแต่งรายการ</button>
+                  <button class="btn-primary">+ เพิ่ม</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      <script src="shop.js"></script>
+</body>
+</html>
